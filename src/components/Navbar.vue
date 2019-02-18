@@ -32,8 +32,8 @@
             <a class="nav-item nav-link" href="#"><i class="fa fa-shopping-cart fa-2x" aria-hidden="true"></i></a>
           </div>
           <div class="btn-group" role="group" aria-label="Basic example">
-            <button @click="$router.push('/')"  type="button" class="btn btn-register text-center">REGISTER</button>
-            <button @click="$router.push('about')" type="button" class="btn btn-login text-center">LOGIN</button>
+            <button @click="$router.push('register')"  type="button" class="btn btn-register text-center">REGISTER</button>
+            <button @click="$router.push('login')" type="button" class="btn btn-login text-center">LOGIN</button>
           </div>
         </div>
       </div>
