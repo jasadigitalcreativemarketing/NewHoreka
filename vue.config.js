@@ -1,6 +1,6 @@
 module.exports = {
   css: undefined,
-  publicPath: undefined,
+  publicPath: '../dist',
   outputDir: undefined,
   assetsDir: undefined,
   runtimeCompiler: undefined,
