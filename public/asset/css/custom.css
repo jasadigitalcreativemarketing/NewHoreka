@@ -1,0 +1,541 @@
+/* CUSTOM CSS */
+
+/* main */
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: open sans;
+}
+
+.bg-main
+{
+    background-color: #48c6d0 !important;
+}
+
+.bg-second
+{
+    background-color: #ef8601 !important;
+}
+
+.bg-white
+{
+    background-color: #fff !important;
+}
+
+.text-main
+{
+    color: #48c6d0 !important;
+}
+
+.text-second
+{
+    color: #ef8601 !important;
+}
+
+.text-grey
+{
+    color: rgb(184, 184, 184) !important;
+}
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: #fff;
+}
+
+.navbar .navbar-brand{
+    color: #48c6d0 !important;
+}
+
+.navbar .navbar-nav{
+    margin-left: 30px;
+}
+
+.navbar .nav-link{
+    color: #48c6d0 !important;
+}
+
+.navbar-nav{
+    padding-left: 10px;
+}
+
+.navbar-nav .nav-item{
+    margin-right : 15px;
+}
+
+.dropdown-style{
+    color: rgb(184, 184, 184);
+}
+
+.input-style{
+    width: 400px;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    height: 46px;
+}
+
+.form-style{
+    margin-top: 2px;
+    margin-right: 4px;
+    color: rgb(184, 184, 184);
+    font-style: italic;
+    font-size: 10px;
+}
+
+input[type="search"].form-style::-webkit-input-placeholder {
+    color: rgb(184, 184, 184);
+    font-style: italic;
+    font-size: 10px;
+}
+
+.btn-group-style{
+    border: 0px !important;
+    border-top-right-radius: 3px !important;
+    border-bottom-right-radius: 3px !important;
+    font-size : 12px !important;
+}
+
+.form-control{
+    border: 0px !important;
+}
+
+.text-style {
+    margin-left : 5px;
+    font-size : 14px;
+}
+
+.btn-group{
+    border: 2px solid #48c6d0 !important;
+    border-radius: 5px;
+    margin-left : 30px;
+    height: 46px;
+}
+
+.btn-register{
+    border-right: 2px solid rgb(184, 184, 184);
+    font-size : 12px !important;
+    color: #737271;
+}
+
+.btn-login{
+    border-left: 1px solid rgb(184, 184, 184);
+    color: #ef8601;
+    font-size : 12px !important;
+}
+
+/* login */
+
+#login {
+    padding-top: 60px;
+}
+
+#login h5{
+    color: #737271;
+    font-size: 18px;
+}
+
+#login p{
+    color: rgb(184, 184, 184);
+    font-size: 10px;
+}
+
+.box{
+    background-color: white;
+    margin : 50px auto 50px auto;
+    padding : 50px;
+}
+
+.form-style{
+    color: #858483;
+    font-size: 14px;
+}
+
+.form-style2{
+    font-size: 14px;
+}
+
+.form-style3{
+    color: #858483;
+    font-size: 14px;
+}
+
+.form-box{
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.btn-form
+{
+    background-color: #48c6d0 !important;
+    color: #ffffff !important;
+    width: 140px;
+}
+
+.hr-style1 {
+    margin-top: 30px;
+	height: 2px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px rgb(184, 184, 184) inset;
+}
+
+.form-regis{
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+/* Register */
+
+#register {
+    padding-top: 60px;
+}
+
+#register h5{
+    color: #737271;
+    font-size: 18px;
+}
+
+#register p{
+    color: rgb(184, 184, 184);
+    font-size: 10px;
+}
+
+.box{
+    background-color: white;
+    margin : 50px auto 50px auto;
+    padding : 50px;
+}
+
+.form-style{
+    color: #858483;
+    font-size: 14px;
+}
+
+.form-style2{
+    font-size: 14px;
+}
+
+.form-style3{
+    color: #858483;
+    font-size: 14px;
+}
+
+.form-box{
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.btn-form
+{
+    background-color: #48c6d0 !important;
+    color: #ffffff !important;
+    width: 140px;
+}
+
+.hr-style1 {
+    margin-top: 30px;
+	height: 2px;
+	border: 0;
+	box-shadow: 0 10px 10px -10px rgb(184, 184, 184) inset;
+}
+
+.form-regis{
+    margin-top: 18px;
+    font-size: 12px;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-image: url('./assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0em;
+    bottom: 0em;
+    height: 100vh;
+    width: auto;
+    height: auto;
+    margin-bottom: 0px !important;
+}
+
+.white-box{
+    background-color: #fff;
+    width: auto;
+    height: 600px;
+    margin-top: 70px;
+    border-radius: 5px;
+}
+
+.curousel-box{
+    background-color: #737271;
+    width: 100%;
+    height: 600px;
+    position: relative;
+    border-top-right-radius: 5px !important;
+    border-bottom-right-radius: 5px !important;
+
+}
+
+.btn-dropdown{
+    font-size : 16px !important;
+    color: rgb(184, 184, 184);
+    border-radius: 0px;
+    border-top: solid 1px #f3f3f3;
+    border-bottom: solid 1px #f3f3f3;
+    width: 100%;
+    height: 50px;
+}
+
+.btn-dropdown:hover{
+    color: #48c6d0;
+    background-color: #f3f3f3;
+}
+
+.jumbo-head-style{
+    font-size: 20px;
+    color: #858483;
+    margin: 20px 20px 0px 20px;
+    padding-bottom: 20px;
+}
+
+.jumbo-input-style{
+    border: 1px solid rgb(184, 184, 184);
+    border-radius: 5px;
+}
+
+.dropright{
+    padding-bottom: -2px !important;
+}
+
+/* Request Box */
+
+#request-box{
+    width: auto;
+    height: 300px;
+    top: 0em;
+    bottom: 0em;
+}
+
+.white-box-2{
+    position: relative;
+    top:50px;
+    background-color: #fff;
+    width: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.request-image{
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.request-input-style{
+    width: auto;
+    border: 2px solid rgb(184, 184, 184);
+    border-radius: 5px;
+    height: 46px;
+}
+
+.request-form-style{
+    margin-top: 2px;
+    margin-right: 4px;
+    color: rgb(184, 184, 184);
+    font-style: italic;
+    font-size: 10px;
+}
+
+input[type="search"].request-form-style::-webkit-input-placeholder {
+    color: rgb(184, 184, 184);
+    font-style: italic;
+    font-size: 10px;
+}
+
+.request-btn-style{
+    border-radius: 5px;
+    width: 200px;
+    height: 46px;
+    font-size: 14px;
+}
+
+/* Popular Tabs */
+
+#popular-tab{
+    width: auto;
+    height: 90px;
+    top: 0em;
+    bottom: 0em;
+}
+
+.btn-popular{
+    width: 130px;
+    color: #737271;
+    border: 2px solid rgb(184, 184, 184);
+}
+
+.btn-popular:hover{
+    border: 2px solid #48c6d0;
+}
+
+/* Popular Items */
+
+#popular-item{
+    width: auto;
+    height: 350px;
+    top: 0em;
+    bottom: 0em;
+}
+
+.card-box{
+    border: none !important;
+}
+
+.card-deck{
+    margin-bottom: 30px;
+}
+.card-text-style{
+    color: #737271;
+    font-size: 16px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.card-price{
+    color: #ef8601;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card-rating{
+    margin-bottom: 5px;
+}
+
+.checked {
+    color: orange;
+}
+
+.card-shop-name{
+    color: #afafaf;
+    font-size: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Recomended Item */
+
+#recomended-item{
+    width: auto;
+    height: 825px;
+    top: 0em;
+    bottom: 0em;
+}
+
+.btn-buy{
+    background-color: #48c6d0;
+    border: 2px solid #48c6d0;
+    color: #fff;
+    width: 100px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.btn-buy:hover{
+    border: 2px solid #858483;
+}
+
+/* Partner */
+
+#partner-box{
+    width: auto;
+    height: 300px;
+    top: 0em;
+    bottom: 0em;
+}
+
+.img-box{
+    width: 200px;
+    height: 200px;
+    border-right: 1px solid rgb(184, 184, 184);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+
+.footer-box{
+    margin : auto;
+    padding-top : 30px;
+    padding-bottom : 30px;
+    color: #fff;
+}
+
+.footer-box .input-group{
+    width: 350px;
+}
+
+.subscribe-box{
+    border-radius: 50px;
+    color: rgb(184, 184, 184);
+    font-size: 10px;
+    height: 30px;
+}
+
+input[type="email"].subscribe-box::-webkit-input-placeholder {
+    color: rgb(184, 184, 184);
+    font-style: italic;
+    font-size: 10px;
+  }
+
+.subscribe-btn{
+    border-radius: 50px;
+    padding: 0px 20px 0px 20px;
+    background-color: #ef8601;
+    color: #fff;
+    height: 30px;
+    font-size: 14px;
+}
+
+.p-style1{
+    margin-top: 5px;
+    font-size: 10px;
+    color: #f0eeec;
+}
+
+.footer-table{
+    font-size: 14px;
+    width: 400px;
+}
+
+.footer-table td{
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.footer-table a{
+    color: #f0eeec;
+}
+
+.footer-badge{
+    width: 300px;
+}
+
+.footer-btn{
+    border-radius: 50px;
+    background-color: #ef8601;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+}
+
+.copyright{
+    color: rgb(184, 184, 184);
+    font-size: 12px;
+    margin-top : 10px;
+}
